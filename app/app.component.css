@@ -1,39 +1,19 @@
-.wrap-form{
-    margin: 0 auto;
-    width:550px;
-    background-color: rgb(255, 240, 250);
-    padding: 20px;
+input.hidden {
+    position: absolute;
+    left: -9999px;
 }
 
-@media(max-width: 550px){
-    .wrap-form{
-        margin: 0 auto;
-        width:100%;
-        background-color: rgb(255, 240, 250);
-        padding: 20px;
-    } 
-}
-
-.form-heading{
-    display: block;
-    text-align: center;
-    font-weight: 600;
-}
-
-.vehicle-type-button{
+.policy-button{
     border: none;
-    background-color: #3d4a71;
+    background-color: #95170e;
     color: white;
     padding: 8px;
     border-radius: 4px;
     width: 100%;
 }
 
-.vehicle{
-    padding: 25px;;
-}
 
-.vehicle-type{
+.policy-div{
     display: inline-block;
     padding: 10px;
     margin: 0 auto;
@@ -41,50 +21,52 @@
 }
 
 @media(max-width: 550px){
-    .vehicle-type{
+    .policy-div{
         display: block;
         padding: 10px;
         margin: 0 auto;
-        width: 100%;
+        width: 80%;
     }
 }
 
 
-.vehicle{
-    padding: 25px;;
-}
-
-.vehicle-type{
-    display: inline-block;
-    padding: 10px;
-    margin: 0 auto;
-    width: 50%;
-}
-
-@media(max-width: 550px){
-    .vehicle-type{
-        display: block;
-        padding: 10px;
-        margin: 0 auto;
-        width: 100%;
-    }
-}
-
-.form-control{
-    border-color:s red;
-}
-
-.submit-button{
-    display: block;
-    width: 200px;
-    border-radius: 6px;
-    background-color: #2e4ca7;
-    color: white;
-    border: none;
-    font-size: large;
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
     padding: 15px;
 }
 
-.submit-div{
-   margin: 0 auto;
+.profile-heading-div{
+padding: 15px;
+background-color: #f8f0ef;
+width: 100%;
+}
+
+.profile-heading-class{
+    display: inline-block;
+    width: 85%;
+}
+
+/* .profile-heading{
+   
+} */
+
+.logout-button-class{
+    display: inline-block;
+    width: 13%;
+}
+
+.logout-button{
+    background-color: #95170e;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.profile-card{
+    padding: 20px;
+    border-width: 5px;
+    background-color: antiquewhite;
 }
